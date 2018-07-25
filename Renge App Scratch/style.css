@@ -1,0 +1,275 @@
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;
+  font-family: helvetica;
+}
+
+header {
+  border-bottom: 1px solid #000;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+
+
+#rengelogo {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: auto;
+}
+#tagline {
+  color: #605E5E;
+  font-family: helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#appstore {
+  margin-bottom: 30px;
+}
+#downloadbutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#android {
+  text-align: center;
+  font-size: 19px;
+}
+/* Subscribe Form */
+#join {
+  margin-bottom: 200px;
+
+}
+/*
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+input[type=email] {
+  border-width: 0px;
+  border-color: rgba(47,46,46,1);
+  background-color: rgba(204,204,204,1);
+  color: rgba(47,46,46,1);
+  font-size: 16px;
+  font-family: helvetica;
+  padding: 8px;
+}
+input[type=submit] {
+  padding: 9px 24px;
+  border-style: solid;
+  white-space: nowrap;
+  background-color: #548A67;
+  border-width: 0px;
+  border-color: rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  font-family: helvetica;
+}
+*/
+
+#mc-embedded-subscribe-form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mce-EMAIL {
+  border-width: 0px;
+  border-color: rgba(47,46,46,1);
+  background-color: rgba(204,204,204,1);
+  color: rgba(47,46,46,1);
+  font-size: 16px;
+  font-family: helvetica;
+  padding: 9px;
+  margin-right: 6px;
+}
+
+#mc-embedded-subscribe {
+  padding: 9px 24px;
+  border-style: solid;
+  white-space: nowrap;
+  background-color: #548A67;
+  border-width: 0px;
+  border-color: rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+#pagetwo {
+  background-color: #e7e7e7;
+  padding-bottom: 100px;
+}
+
+#whycenter {
+  font-size: 21px;
+  margin-left: 14%;
+  margin-right: 14%;
+  color: #0E2E47;
+}
+
+#dear {
+  padding-top: 70px;
+  text-align: left;
+}
+.whycontent {
+  text-align: center;
+  line-height: 30px;
+
+}
+
+#fromrenge {
+  text-align: right;
+}
+
+#rengelogo2 {
+
+  display: block;
+  width: 197px;
+  height: 52px;
+  float: right;
+  margin-right: 5%;
+
+}
+
+footer {
+  background-color: #548A67;
+  position: ;
+  bottom: 0;
+  border-top: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+#legalstyle {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding-left: 0;
+  left: 35px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+}
+#legalstyle li{
+  color: #000;
+  text-align: left;
+  display: inline;
+}
+
+#legalstyle a {
+  color: #000;
+}
+#socialmedianav {
+  list-style-type: none;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  float: right;
+  /*margin-left: 100px; */
+  width: 35%;
+
+}
+
+#socialmedianav li {
+  display: inline;
+  text-align: left;
+}
+#emailicon {
+  width:27px;
+  height: 27px;
+}
+
+/* Response Web Design */
+
+@media only screen and (min-width: 601px) {
+  #tagline {
+    font-size: 36px;
+  }
+  #android {
+    font-size: 19px;
+  }
+
+
+}
+
+/*screen size is 600px wide or less*/
+@media only screen and (max-width: 600px) {
+  #tagline {
+    font-size: 18px;
+  }
+  #android {
+    font-size: 12px;
+  }
+  #mce-EMAIL {
+  width: 50%;
+  margin-right:auto;
+  padding: auto;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+  }
+  #mc-embedded-subscribe {
+  width: 50%;
+  text-align: center;
+  padding: auto;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+  }
+  #mc-embedded-subscribe-form {
+    text-align: center;
+  }
+
+  #fromrenge {
+    text-align: center;
+  }
+
+  #rengelogo2 {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+  }
+  #legalstyle {
+    left: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom:5%;
+  }
+
+  #legalstyle li {
+    display: list-item;
+    text-align: center;
+  }
+  #socialmedianav {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  }
+}
